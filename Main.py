@@ -7,7 +7,7 @@ import psycopg2
 ## API CONNECTION
 
 def Connect_API():    
-    Api_id="Api Key"
+    Api_id="AIzaSyDra-BIXeEemASEHSzFB_AzoFfOjZRDeBk"
     Api_serviceName="Youtube"
     Api_version="v3"
     connect=build(Api_serviceName,Api_version,developerKey=Api_id)
